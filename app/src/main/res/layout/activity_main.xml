@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/img"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Выход"
+        android:textColor="@color/white"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:textSize="25sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Добро пожаловать!"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:layout_gravity="center"
+        android:layout_marginTop="190dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Выполните вход"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="15dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="или заригистрируйтесь."
+        android:textSize="20dp"
+        android:textColor="@color/white"
+        android:layout_marginLeft="75dp"/>
+
+    <EditText
+        android:id="@+id/et_email"
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:backgroundTint="@color/white"
+        android:layout_marginTop="70dp"
+        android:hint="Введите вашу почту"
+        android:textColor="#8C8282"
+        android:background="@drawable/oval"
+        android:padding="18dp"/>
+
+    <EditText
+        android:id="@+id/et_password"
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:backgroundTint="@color/white"
+        android:layout_marginTop="20dp"
+        android:hint="Введите пароль"
+        android:textColor="#8C8282"
+        android:background="@drawable/oval"
+        android:padding="18sp"/>
+
+    <Button
+        android:id="@+id/btn_exit"
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:backgroundTint="#8C8282"
+        android:layout_marginTop="20dp"
+        android:text="Войти"
+        android:textAllCaps="false"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:background="@drawable/oval"/>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="25dp">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Забыл пароль?"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="19sp"
+        android:paddingStart="75dp"/>
+
+    <TextView
+        android:id="@+id/tv_click"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="10"
+        android:text="Нажми сюда"
+        android:textColor="#FF8622"
+        android:textSize="19sp" />
+</LinearLayout>
+</LinearLayout>
